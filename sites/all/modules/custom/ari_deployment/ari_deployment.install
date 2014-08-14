@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Install file for Deploy Update
+ */
+
+/**
+ * Implements hook_update_N
+ * 1st Deployment: enable contact, book; disable devel, coder; enable garland;
+ */
+function ari_deployment_update_7000() {
+  // Enable Reroute email
+  module_enable(array('reroute_email');
+}
