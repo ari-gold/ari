@@ -1,0 +1,5 @@
+name = Ari site Deployment
+description = Ari deployment module, used to automate changes to a Drupal site via update.php
+package = Ari
+core = 7.x
+version = "7.x-1.x-dev"
