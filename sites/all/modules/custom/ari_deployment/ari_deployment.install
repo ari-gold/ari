@@ -10,5 +10,5 @@
  */
 function ari_deployment_update_7000() {
   // Enable Reroute email
-  module_enable(array('reroute_email');
+  module_enable(array('reroute_email'));
 }
